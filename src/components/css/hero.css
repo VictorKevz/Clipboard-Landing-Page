@@ -1,0 +1,55 @@
+
+.hero-heading{
+    max-width: 696px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 83px auto;
+}
+.hero-grid-container{
+    display: flex;
+    align-items: center;
+    gap: 110px;
+}
+
+.text-container{
+    max-width: 380px;
+    width: 90%;
+}
+.text-container>div:not(:last-child){
+    margin-bottom: 66px;
+}
+.title{
+    font-weight: 600;
+    color: var(--dark-gray-blue);
+}
+.hero-access-container{
+    margin: 150px auto 0 auto;
+    text-align: center;
+
+}
+.access-heading{
+    max-width: 670px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-image.devices{
+    margin-inline: auto;
+    margin-block: 115px 150px;
+
+}
+
+@media (max-width:1075px) {
+    .hero-grid-container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .text-container{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero-image{
+        width:  70%;
+        margin: 0 auto;
+    }
+}

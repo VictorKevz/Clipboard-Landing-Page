@@ -1,0 +1,44 @@
+.buttons-container {
+  margin: 49px auto 140px auto;
+  max-width: 691px;
+}
+.ios,
+.mac {
+  height: 56px;
+  border: none;
+  border-radius: 30px;
+  width: 227px;
+  color: rgb(255, 255, 255,.9);
+  margin: 0 auto;
+  border: 10px solid inherit;
+}
+.ios {
+  background-color: var(--cyan);
+  box-shadow: 0px 5px 10px var(--cyan);
+}
+.mac {
+  background-color: var(--light-blue);
+  box-shadow: 0px 5px 10px var(--light-blue);
+
+}
+button:hover{
+  cursor: pointer;
+  opacity: .8;
+}
+@media (max-width:520px) {
+    .mac,.ios{
+        display: flex;
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+    .ios{
+        margin-bottom: 24px;
+    }
+}
+@media (min-width:520px) {
+  .ios{
+    margin-right: 16px;
+
+  } 
+}

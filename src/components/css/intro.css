@@ -1,0 +1,25 @@
+.header-outer-container{
+    background-image: url("../../assets/images/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+}
+
+.header-container>img{
+    margin-block: 129px 65px;
+}
+
+
+.outro-container,.header-container{
+    text-align: center;
+    width: 90%;
+    max-width: 700px; 
+    margin: 0 auto;  
+}
+
+@media (max-width:520px) {
+   .header-outer-container{
+    background-image: url("../../assets/images/bg-header-mobile.png");
+   }
+}

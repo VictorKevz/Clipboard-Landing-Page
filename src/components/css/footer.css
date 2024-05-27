@@ -1,0 +1,49 @@
+.footer-outer-container{
+    background-color: hsl(201, 11%, 66%,.1);
+
+}
+.footer-container{
+    
+    align-items: center;
+    margin: 0 auto;
+    min-height: 150px;
+    padding: 50px 0;
+}
+
+ul li{
+    list-style-type: none;
+    font-weight: 400;
+    color: var(--dark-gray-blue);
+    font-size: 1.8rem;
+
+
+}
+.logo{
+    height: 55px;
+}
+ul li:not(:first-child){
+    margin-top: 24px;
+}
+.social-links{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    gap: 25px;
+}
+.react-icons{
+    width: 25px;
+    height: 25px;
+    color: var(--dark-gray-blue);
+}
+.react-icons:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
+ul li:hover{
+    color: var(--cyan);
+    cursor: pointer;   
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 137, 107);
+}
